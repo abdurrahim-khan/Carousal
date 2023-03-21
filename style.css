@@ -1,0 +1,41 @@
+body {
+    margin: 0;
+}
+img {
+    height: 400px;
+    width: 100%;
+}
+#slide-container {
+    position: relative;
+}
+.slide{
+    position: relative;
+}
+.caption {
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.432);
+}
+span{
+    position: absolute;
+    top: 40%;
+    background-color: rgba(255, 255, 255, 0.699);
+    color: black;
+    padding: 20px;
+    border-radius: 50%;
+    font-size: 25px;
+    user-select: none;
+}
+.back {
+    left: 10px;
+    padding-left: 28px;
+}
+.forth {
+    right: 10px;
+}
+span:hover {
+    cursor: pointer;
+}
